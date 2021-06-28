@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="function.php"  method="GET">
+        <div class="form-group">
+            <input type="text" class="form-control mt-5" name="num01" placeholder="Number 1">
+            <select class="form-control" name="oper">
+                <label> CHoose operation!</label>
+                <option value="add">Plus</option>
+                <option value="min">Minus</option>
+                <option value="mult">Multiply</option>
+                <option value="div">Divide</option>
+            </select>
+            <input type="text" class="form-control mt-4" name="num02" placeholder="Number 2">
+            <button type="submit" class="btn-primary mt-4">Calculate</button>
+        </div>
+    </form>
+</body>
+</html>
